@@ -1,0 +1,107 @@
+body {
+    background-image: url("../imagens/banner-fundo.jpeg");
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+
+h1 {
+    color: aliceblue;
+    text-transform: uppercase;
+}
+/*sindebar*/
+.menu-direito {
+    background-color: brown;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+}
+.icone {
+    background-color: rgb(223, 182, 18);
+    border-radius: 10px;
+    max-width: 50px;
+    margin-left: 50px;
+    margin-top: 110px;
+    transition: 0.5s;
+}
+.icone:hover {
+    background-color: rgb(248, 206, 102);
+    cursor: pointer;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+.principal {
+    background-color: #131314;
+}
+
+#titulo {
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 0px;
+    background-color: qua;
+    border-bottom: 1px #f7ce66 solid;
+}
+#titulo h1 {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#logo {
+    max-width: 50px;
+    background-color: #f7ce66;
+    border-radius: 20px;
+}
+.content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 170px;
+    width: calc(100% - 250px);
+    margin: 10px;
+    gap: 15px;
+}
+.cardapio{
+    border-radius: 50px;
+    margin-top: 70px;
+    text-align: center;
+    background-color:#131314;
+    width: 400px;
+    height: 435px;
+    box-shadow: 1px 1px 12px #fff;
+}
+
+/*Area cardapio*/
+#butao {
+    width:30px;
+    margin-left: 280px;
+    transition: 0.5S;
+    cursor: pointer;
+}
+
+#butao:hover {
+    transform: scale(1.2);
+}
+
+.lanche {
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    background-size: cover;
+}
+.descricao{
+    margin-left: 11px;
+    color: #fff;
+    height: 40px;
+    width: 300px;
+    
+}
+.preco{
+    color: #fff;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 30px;
+}
